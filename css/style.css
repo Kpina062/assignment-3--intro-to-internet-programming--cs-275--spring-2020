@@ -1,0 +1,21 @@
+
+body {
+  background-color: beige;
+  margin-top: 30px;
+}
+
+table {
+  text-align: center;
+   font-size: 45px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+td {
+  border: solid red;
+  letter-spacing: 25px;
+  box-sizing: content-box;
+  width: 10%;
+  padding: 10px;
+  position: relative;
+}
