@@ -1,6 +1,5 @@
-
 body {
-  background-color: beige;
+  background-color: white;
   margin-top: 30px;
 }
 
@@ -8,14 +7,25 @@ table {
   text-align: center;
    font-size: 45px;
   margin: 0 auto;
-  text-align: center;
+  border-collapse: collapse;
 }
 
 td {
   border: solid red;
-  letter-spacing: 25px;
+  letter-spacing: 15px;
   box-sizing: content-box;
   width: 10%;
   padding: 10px;
   position: relative;
+  animation: rotation 0.5s linear alternate;
 }
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+
+
