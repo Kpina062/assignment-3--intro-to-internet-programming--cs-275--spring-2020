@@ -17,7 +17,7 @@ td {
   position: relative;
 }
 
-@-webkit-keyframes rotationOn {
+@webkit-keyframes rotationOn {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -28,8 +28,7 @@ td {
     transform: rotate(180deg);
   }
 }
-
-@-webkit-keyframes rotationOff {
+@webkit-keyframes rotationOff {
   from {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -40,10 +39,11 @@ td {
     transform: rotate(0deg);
   }
 }
+
 .rotation1 {
-  animation: rotationOn 0.5s linear forwards;
+  animation: rotationOn .5s linear forwards;
 }
 
 .rotation2 {
-  animation: rotationOff 0.5s linear forwards;
+  animation: rotationOff .5s linear forwards;
 }
