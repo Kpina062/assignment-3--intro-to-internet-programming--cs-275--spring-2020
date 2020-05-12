@@ -4,17 +4,15 @@ body {
 }
 
 table {
-  text-align: center;
-  font-size: 45px;
-  margin: 0 auto;
   border-collapse: collapse;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 td {
   border: solid red;
   letter-spacing: 15px;
-  box-sizing: content-box;
-  width: 10%;
   padding: 10px;
   position: relative;
   transition-duration: 0.5s;
@@ -22,9 +20,11 @@ td {
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }
 
