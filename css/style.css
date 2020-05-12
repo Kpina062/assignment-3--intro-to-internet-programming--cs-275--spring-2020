@@ -15,9 +15,8 @@ td {
   /*letter-spacing: 15px;*/
   padding: 10px;
   position: relative;
-  transition-duration: 0.5s;
 }
-@-webkit-keyframes rotation {
+@-webkit-keyframes rotationOn {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -28,4 +27,20 @@ td {
   }
 }
 
+@-webkit-keyframes rotationOff {
+  from {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.rotation1 {
+  animation: rotationOn 0.5s linear forwards;
+}
 
+.rotation2 {
+  animation: rotationOff 0.5s linear forwards;
+}
