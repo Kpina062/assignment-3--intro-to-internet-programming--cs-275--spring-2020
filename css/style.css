@@ -16,11 +16,13 @@ td {
   padding: 10px;
   position: relative;
 }
+
 @-webkit-keyframes rotationOn {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -32,6 +34,7 @@ td {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   }
+
   to {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
