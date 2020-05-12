@@ -5,14 +5,14 @@ body {
 
 table {
   border-collapse: collapse;
-  font-size: 25px;
+  font-size: 45px;
   margin: 0 auto;
   text-align: center;
 }
 
 td {
   border: solid red;
-  letter-spacing: 15px;
+  /*letter-spacing: 15px;*/
   padding: 10px;
   position: relative;
   transition-duration: 0.5s;
